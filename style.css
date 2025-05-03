@@ -156,6 +156,10 @@ body {
     max-width: 700px;
     margin: auto;
 }
+@media(max-width:768px){
+    flex-direction: column;
+    text-align: center;
+}
 .menus-navegacao-header{
     display: flex;
     justify-content: center;
