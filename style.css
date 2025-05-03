@@ -24,6 +24,12 @@ body {
     margin-top: -60px;
     margin-bottom: -140px;
   }
+@media(max-width:768px){
+  .titulo-principal-index{
+    font-size: 1.6em;
+    padding: 20px;
+  }
+}
   @media(max-width:768px){
   .cards-container{
     flex-direction: column;
@@ -142,8 +148,14 @@ body {
     font-weight: bold;
 }
 @media(max-width:768px){
+  .Titulo-principal{
+    font-size: 1.8em;
+    margin-left: 15px;
+  }
+}
+@media(max-width:768px){
   .div-imagens{
-    margin: 0px 20px 0px 20px;
+    margin: 0px 15px 0px 15px;
   }
 }
 .div-imagens{
