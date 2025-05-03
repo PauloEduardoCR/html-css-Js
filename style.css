@@ -1,0 +1,235 @@
+*{
+    margin: 0%;
+}
+
+
+/* Style CSS index.html     -->  Introdução           */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .hero {
+    background-image: linear-gradient( to bottom, #19e10e, #fefefeed);
+    height: 450px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000;
+    margin-top: -60px;
+    margin-bottom: -140px;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+  }
+  
+  .card {
+    background: #21c721;
+    color: #ffffff;
+    text-shadow: grey 2px 3px 4px;
+    border-radius: 12px;
+    border:solid #ffffff 2px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .card img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card h2 {
+    margin: 20px 0 10px;
+  }
+  
+  .card a {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background: #e22a2a;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card a:hover {
+    background: #c0392b;
+  }
+  .summary-history-box{
+    background-color: #eeeeeeb7;
+    box-shadow: gray 2px 3px 5px;
+    border-radius: 20px;
+    padding: 25px;
+    max-width: 700px;
+    margin: auto;
+
+  }
+  .h2-introduction-text{
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .p-text-summary{
+    margin: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+    margin-top: 50px;
+  }
+  
+
+
+
+
+
+
+
+
+
+/* Style CSS historia.html/ Cultura.html/  locais.html  -->*/
+
+.body-pagina-geral {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    background-color: #ffffff;
+    color: #333;
+
+  }
+
+#header-style{
+    background-image: linear-gradient( to bottom, #19e10e, #fefefeed);
+    width: 100%;
+    height: 450px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000;
+    padding-top: 100px;
+    margin-bottom: -350px;
+}
+.Titulo-principal{
+    font-size: 2.5em;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    text-shadow: #b6b5b5 3px 3px 5px;
+    font-weight: bold;
+}
+.div-imagens{
+  max-width: 100%;
+  margin: 0px 60px 0px 60px;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.subtitulo-pagina-geral {
+    color: #8B0000;
+    margin-top: 40px;
+  }
+.main-estrutura-geral{
+    background-color: #eeeeee;
+    border-radius: 30px;
+    padding: 25px;
+    margin: 20px;
+    box-shadow: #b2b2b2 2px 3px 6px;
+    max-width: 700px;
+    margin: auto;
+}
+.menus-navegacao-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 44px;
+}
+.link-nav-header{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight:bold ;
+    text-shadow: grey 2px 3px 4px;
+}
+.link-nav-header:hover{
+    border-bottom: solid rgb(205, 14, 17) 4px;
+    border-radius: 3px;
+    padding-bottom: 0.7em;
+    margin: 3px;
+    transition: 0.3s;
+}
+
+.paragraph-text-main{
+  margin: 20px;
+}
+
+
+/* Rodapé footer de todas paginas*/
+footer{
+  background-color: #de1010;
+}
+.h3-footer{
+  display: flex;
+  font-size: 1.4em;
+  text-shadow: #690404 2px 3px 5px;
+  padding: 10px 0px 10px 110px;
+  color: white;
+  justify-content: start;
+}
+.ul-links-paginas-footer{
+  list-style-type: none;
+  padding-left: 0;
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  justify-content:center;
+  gap: 180px;
+  margin-bottom: 30px;
+}
+@media(max-width:768px){
+  .ul-links-paginas-footer{
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    gap: 0px;
+    padding-left: 35px;
+  }
+  .h3-footer{
+    padding-left: 25px;
+  }
+}
+.a-link-paginas-footer{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.a-link-paginas-footer:hover{
+  color: #cdbfbf;
+  text-shadow: #690404 2px 3px 5px;
+}
+.paragraph-footer-copyright{
+  color: white;
+  font-size: 0.8em;
+}
+
+/* Style CSS culinaria.html -->  Culinaria Italiana   */
+
+/* Style CSS locais.html    -->  Pontos Turisticos    */
