@@ -28,6 +28,7 @@ body {
   .titulo-principal-index{
     font-size: 1.6em;
     padding: 20px;
+    margin: 20px;
   }
 }
   @media(max-width:768px){
